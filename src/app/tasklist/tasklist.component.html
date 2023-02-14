@@ -1,0 +1,8 @@
+<div class="list" *ngFor="let task of tasklist">
+  <div class="row">
+    <!-- add click -->
+    <button type="button" (click)="getInfo(task.id)" class="btn btn-info border">
+      Task {{task.id}}
+    </button>
+  </div>
+</div>

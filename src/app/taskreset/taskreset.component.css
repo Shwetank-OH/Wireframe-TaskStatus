@@ -1,0 +1,26 @@
+.taskreset-component {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1rem;
+  align-self: center;
+  border: 2px grey solid;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2px 1px grey;
+}
+
+.taskreset {
+  display: inline;
+  justify-content: center;
+  font-weight: 600;
+  margin: 0;
+}
+
+.resetbutton {
+  margin: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+

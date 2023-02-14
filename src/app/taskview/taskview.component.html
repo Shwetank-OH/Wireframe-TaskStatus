@@ -1,0 +1,73 @@
+<!-- <div class="taskview-component">
+  <div class="row taskrow">
+    <div class="col-md-6 taskview">
+      <div class="row taskdetails">
+        <div class="col-md-12">
+          <div class="row">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt="img"
+            />
+          </div>
+          <div class="row">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Consequatur ut hic eos saepe fugiat quae necessitatibus ipsam
+            explicabo laboriosam inventore modi ducimus atque facere, non,
+            blanditiis enim incidunt consequuntur autem!
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 taskview">
+      <div class="row taskactions">
+        <div class="col-md-12 task-action-bucket">
+          <div class="row task-done-row">
+            <button type="submit" class="btn btn-success ">Task Done</button>
+          </div>
+          <br />
+          <div class="row task-denied-row">
+            Deny Reason:
+            <input type="text" />
+            <button type="submit" class="btn btn-danger">Task Denied</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<div class="taskview-component">
+  <div class="row taskrow">
+    <div class="col-md-6 taskview">
+      <div class="row taskdetails">
+        <div class="col-md-12">
+          <div class="row">
+            <img
+              src={{taskContent.img}}
+              alt="img"
+            />
+
+          </div>
+          <div class="row">
+           {{taskContent.desc}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 taskview">
+      <div class="row taskactions">
+        <div class="col-md-12 task-action-bucket">
+          <div class="row task-done-row">
+            <button type="submit" class="btn btn-success" (click)="statusDone()">Task Done</button>
+          </div>
+          <br />
+          <div class="row task-denied-row">
+            Deny Reason:
+            <input type="text" />
+            <button type="submit" class="btn btn-danger" (click)="statusDenied()">Task Denied</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

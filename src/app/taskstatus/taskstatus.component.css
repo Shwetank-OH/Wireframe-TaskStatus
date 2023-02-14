@@ -1,0 +1,24 @@
+.taskstatus-component{
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  align-self: center;
+  padding: 1rem;
+  border: 2px grey solid;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 2px 1px grey;
+}
+
+.taskstatus{
+  display: inline;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.taskdone{
+  color: green;
+}
+
+.taskdenied{
+  color: red;
+}
